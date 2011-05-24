@@ -1,0 +1,4 @@
+License: GPLv3
+
+Example:  Convert a directory of files into a SequenceFile of TypedBytes
+python -m hadoopy_utils dir2seqtb in_dir/ out.seq
