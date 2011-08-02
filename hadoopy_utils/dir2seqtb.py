@@ -31,7 +31,7 @@ def _parse(args):
 
 def main(args):
     dir_in, seq_out = _parse(args)
-    cmd = 'hadoop jar /usr/lib/hadoop/contrib/streaming/hadoop-streaming-0.20.2-cdh3u0.jar loadtb %s' % seq_out
+    cmd = 'hadoop jar /home/brandyn/hadoop-0.20.2+320/contrib/streaming/hadoop-streaming-0.20.2-cdh3u0.jar loadtb %s' % seq_out
     _run(cmd, dir_in)
 
 
